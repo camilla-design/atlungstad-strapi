@@ -1,2 +1,3 @@
-# atlungstad-strapi
-Strapi API for Atlungstad
+# Strapi API
+
+Strapi API for Atlungstad Brenneri

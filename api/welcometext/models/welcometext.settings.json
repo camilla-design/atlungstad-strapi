@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "welcometexts",
+  "info": {
+    "name": "welcometext"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
