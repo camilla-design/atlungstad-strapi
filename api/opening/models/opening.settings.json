@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "openings",
+  "info": {
+    "name": "opening",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "day": {
+      "type": "string"
+    },
+    "dato": {
+      "type": "date"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "closed": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}
