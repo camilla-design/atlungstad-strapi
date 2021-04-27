@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/barnemenies",
+      "handler": "barnemeny.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/barnemenies/count",
+      "handler": "barnemeny.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/barnemenies/:id",
+      "handler": "barnemeny.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/barnemenies",
+      "handler": "barnemeny.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/barnemenies/:id",
+      "handler": "barnemeny.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/barnemenies/:id",
+      "handler": "barnemeny.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

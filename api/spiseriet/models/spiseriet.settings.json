@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "spiseriets",
+  "info": {
+    "name": "spiseriet"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forretters",
+  "info": {
+    "name": "starter",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "allergi": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

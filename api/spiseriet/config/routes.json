@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/spiseriets",
+      "handler": "spiseriet.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/spiseriets/count",
+      "handler": "spiseriet.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/spiseriets/:id",
+      "handler": "spiseriet.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/spiseriets",
+      "handler": "spiseriet.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/spiseriets/:id",
+      "handler": "spiseriet.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/spiseriets/:id",
+      "handler": "spiseriet.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

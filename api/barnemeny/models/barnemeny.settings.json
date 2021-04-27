@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "barnemenies",
+  "info": {
+    "name": "kidsmenu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "allergi": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hovedretters",
+      "handler": "hovedretter.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hovedretters/count",
+      "handler": "hovedretter.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hovedretters/:id",
+      "handler": "hovedretter.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hovedretters",
+      "handler": "hovedretter.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hovedretters/:id",
+      "handler": "hovedretter.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hovedretters/:id",
+      "handler": "hovedretter.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

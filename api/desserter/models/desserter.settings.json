@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "desserters",
+  "info": {
+    "name": "dessert",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "allergi": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}
