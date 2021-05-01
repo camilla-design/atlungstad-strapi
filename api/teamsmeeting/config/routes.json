@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/teamsmeetings",
+      "handler": "teamsmeeting.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/teamsmeetings/count",
+      "handler": "teamsmeeting.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/teamsmeetings/:id",
+      "handler": "teamsmeeting.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/teamsmeetings",
+      "handler": "teamsmeeting.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/teamsmeetings/:id",
+      "handler": "teamsmeeting.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/teamsmeetings/:id",
+      "handler": "teamsmeeting.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

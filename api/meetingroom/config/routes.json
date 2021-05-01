@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/meetingrooms",
+      "handler": "meetingroom.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/meetingrooms/count",
+      "handler": "meetingroom.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/meetingrooms/:id",
+      "handler": "meetingroom.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/meetingrooms",
+      "handler": "meetingroom.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/meetingrooms/:id",
+      "handler": "meetingroom.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/meetingrooms/:id",
+      "handler": "meetingroom.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

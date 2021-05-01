@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mixedlabs",
+      "handler": "mixedlab.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mixedlabs/count",
+      "handler": "mixedlab.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mixedlabs/:id",
+      "handler": "mixedlab.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mixedlabs",
+      "handler": "mixedlab.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mixedlabs/:id",
+      "handler": "mixedlab.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mixedlabs/:id",
+      "handler": "mixedlab.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

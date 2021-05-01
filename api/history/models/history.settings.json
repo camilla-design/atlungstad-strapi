@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "histories",
+  "info": {
+    "name": "history"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "into": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

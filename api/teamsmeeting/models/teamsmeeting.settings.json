@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teamsmeetings",
+  "info": {
+    "name": "teamsmeeting"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

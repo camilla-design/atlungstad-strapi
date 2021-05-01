@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/workstaffs",
+      "handler": "workstaff.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/workstaffs/count",
+      "handler": "workstaff.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/workstaffs/:id",
+      "handler": "workstaff.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/workstaffs",
+      "handler": "workstaff.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/workstaffs/:id",
+      "handler": "workstaff.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/workstaffs/:id",
+      "handler": "workstaff.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

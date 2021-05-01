@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/memorials",
+      "handler": "memorial.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/memorials/count",
+      "handler": "memorial.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/memorials/:id",
+      "handler": "memorial.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/memorials",
+      "handler": "memorial.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/memorials/:id",
+      "handler": "memorial.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/memorials/:id",
+      "handler": "memorial.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

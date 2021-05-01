@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lectures",
+  "info": {
+    "name": "lecture",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "intro": {
+      "type": "richtext"
+    }
+  }
+}
